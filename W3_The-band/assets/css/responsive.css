@@ -1,0 +1,201 @@
+/* PC width >= 1024px */
+@media (min-width: 64em) {
+
+    .l-mt-12 {
+        margin-top: 12px;
+    }
+
+    .member-avatar:hover {
+        filter: brightness(130%);
+        transform: scale(1.1);
+        border: 2px solid #000;
+    }
+
+    .place:hover {
+        transform: scale(1.06);
+        margin-top: 10px;
+    }
+
+    .place:hover .place-img {
+        opacity: 0.7;
+        border: 3px solid #f33427;
+    }
+
+    .place:hover .place-heading {
+        color: #f33427;
+        font-size: 18px;
+    }
+
+    .place:hover .place-date {
+        color: #000;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+
+/* Tablet & Mobile  width <=1023px */
+@media (max-width: 63.9375em) {
+
+    .btn {
+        padding: 16px;
+    }
+
+    #nav .subnav a {
+        padding: 12px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        padding: 0 3px 15px;
+        font-size: 16px;
+    }
+
+    .contact-form .form-control input {
+        font-size: 18px;
+    }
+
+    .contact-form .form-control label {
+        top: 35%;  
+    }
+
+    .contact-form .form-control input:focus + label, 
+    .contact-form .form-control input:valid + label {
+        top: -2px;
+        left: 9px;
+    }
+
+    .contact-form .contact-submit-btn {
+        font-size: 16px;
+    }
+}
+
+/* Tablet  740px >= width <=1023px */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    .contact-form .form-control label {
+        margin-top: 1px;
+        position: absolute;
+        padding: 0 5px;
+        left: 5px;
+    }
+
+    #footer .socials a {
+        font-size: 35px;
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        font-size: 18px;
+        padding: 0px 0;
+    }
+}
+
+
+/* Mobile width <=740px */
+@media (max-width: 46.1875em) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    .s-mt-4 {
+        margin-top: 4px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;  
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: inherit;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 6px 42px;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #slider .text-content {
+        text-shadow: 3px 3px 3px black;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-avatar {
+        width: 60%;
+    }
+
+    .btn-buy:hover {
+        transform: scale(1.05);
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .contact-form .form-control input {
+        font-size: 18px;
+    }
+
+    .contact-form .form-control input:focus {
+        outline: 1px solid #000;
+        border: none;
+    }
+
+    .contact-form .form-control input:focus + label, 
+    .contact-form .form-control input:valid + label {
+        top: 0;
+        left: 8px;
+    }
+
+    .contact-submit-btn:hover {
+        transform: scale(1.04, 1.1);
+    }
+
+    #footer .socials a {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    #footer .copyright,
+    #footer .copyright a {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+}
